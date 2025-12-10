@@ -1,0 +1,28 @@
+# MacOS
+.DS_Store
+
+# Node (frontend)
+node_modules/
+dist/
+frontend/node_modules/
+frontend/dist/
+
+# Vite local config
+*.local
+
+# Python (dbt)
+__pycache__/
+*.pyc
+todo_analytics/dbt_packages/
+todo_analytics/target/
+
+# Go (backend)
+backend/bin/
+backend/dist/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Logs
+*.log
